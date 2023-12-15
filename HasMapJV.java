@@ -21,7 +21,7 @@ public class HasMapJV {
             System.out.println("User name không tồn tại !");
         } else if (!users.get(userName).equals(passWord)) {
             //Nếu có Key mà Password sai
-            System.out.println("Đăng nhập thất bại !");
+            System.out.println("Đăng nhập thất bại, password sai !");
         } else {
             //Có Key và password đúng
             System.out.println("Đăng nhập thành công !");
